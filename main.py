@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import random
 
-list_of_words = ['test', 'cookie', 'python', 'programming']
+list_of_words = ['test', 'cookie', 'python', 'programming', 'stairs', 'window', 'random', 'person']
 
 chosen_word = random.choice(list_of_words)
 
@@ -16,6 +16,8 @@ def create_game_board():
 
 
 def start_game(lives):
+    print("Welcome to the game of Hangman!")
+    print("A word has been selected from the word bank.")
     print('The word has {0} letters. You have {1} lives.'.format(length, lives))
     print(''.join(game_board))
     guesses = []
