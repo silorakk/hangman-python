@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import random
 
-list_of_words = ['test', 'cookie', 'python', 'programming', 'stairs', 'window', 'random', 'person']
+list_of_words = ['test', 'cookie', 'python', 'programming', 'stairs', 'window', 'random', 'person', 'education']
 
 chosen_word = random.choice(list_of_words)
 
