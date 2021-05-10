@@ -16,6 +16,8 @@ def create_game_board():
 
 
 def start_game(lives):
+    print("Welcome to the game of Hangman!")
+    print("A word has been selected from the word bank.")
     print('The word has {0} letters. You have {1} lives.'.format(length, lives))
     print(''.join(game_board))
     guesses = []
